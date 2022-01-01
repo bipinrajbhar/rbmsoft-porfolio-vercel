@@ -24,7 +24,7 @@ export default function App() {
         />
         <Links />
       </head>
-      <body className="px-10 text-gray-900 font-roboto">
+      <body className="px-10 mx-auto text-gray-900 font-roboto max-w-7xl">
         <Outlet />
         {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
       </body>
