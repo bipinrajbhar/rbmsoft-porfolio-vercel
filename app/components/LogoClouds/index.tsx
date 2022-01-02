@@ -5,7 +5,7 @@ import JennyCraigLogo from "../../../public/img/brands/jenny-craig.webp";
 
 export default function LogoClouds() {
   return (
-    <section className="mt-10 mb-6">
+    <section className="px-10 mx-auto mt-10 mb-6 max-w-7xl ">
       <p className="mb-6 font-semibold tracking-wider text-center">
         TRUSTED BY 4 FORWARD-THINKING COMPANIES
       </p>

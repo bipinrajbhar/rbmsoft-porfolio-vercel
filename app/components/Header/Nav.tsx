@@ -1,6 +1,6 @@
 import NavItem from "./NavItem";
 
-const headerNavLinks = [
+const navLinks = [
   {
     content: "About",
     href: "#about",
@@ -23,7 +23,7 @@ export default function Nav() {
   return (
     <nav>
       <ul className="flex items-center gap-6">
-        {headerNavLinks?.map(({ href, content }) => (
+        {navLinks?.map(({ href, content }) => (
           <NavItem key={href} href={href}>
             {content}
           </NavItem>
