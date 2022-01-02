@@ -2,7 +2,7 @@ export default function Works() {
   return (
     <section id="works" className="px-10 mx-auto my-10 max-w-7xl">
       <h2 className="mb-6 tracking-wider after:block after:w-full after:h-0.5 after:bg-gray-600 inline-block">
-        WORKS
+        Works
       </h2>
       <div className="grid grid-cols-4 gap-4">
         <figure className="aspect-video">
