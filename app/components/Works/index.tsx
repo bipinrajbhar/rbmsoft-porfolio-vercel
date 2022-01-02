@@ -1,13 +1,14 @@
 export default function Works() {
   return (
-    <section id="works" className="my-10 scroll-m-6">
+    <section id="works" className="my-10">
       <h2 className="mb-6 tracking-wider after:block after:w-full after:h-0.5 after:bg-gray-600 inline-block">
         Works
       </h2>
       <div className="grid grid-cols-4 gap-4">
         <figure className="aspect-video">
-          <div className="overflow-hidden rounded-md ring-2 ring-gray-200 ring-offset-2">
+          <div className="filter ">
             <img
+              className="border rounded-md"
               src="https://res.cloudinary.com/dqhskqqa6/image/upload/v1641124330/rbm-software-inc/works/j9zwahumxhyanelhoheo.webp"
               alt="rh.com"
             />
@@ -23,8 +24,9 @@ export default function Works() {
           </figcaption>
         </figure>
         <figure className="aspect-video">
-          <div className="overflow-hidden rounded-md ring-2 ring-gray-200 ring-offset-2">
+          <div className="filter ">
             <img
+              className="border rounded-md"
               src="https://res.cloudinary.com/dqhskqqa6/image/upload/v1641125260/rbm-software-inc/works/bntrctrshtqmy1phctva.webp"
               alt="RHBaby&Child"
             />
@@ -40,8 +42,9 @@ export default function Works() {
           </figcaption>
         </figure>
         <figure className="aspect-video">
-          <div className="overflow-hidden rounded-md ring-2 ring-gray-200 ring-offset-2">
+          <div className="filter ">
             <img
+              className="border rounded-md"
               src="https://res.cloudinary.com/dqhskqqa6/image/upload/v1641125705/rbm-software-inc/works/blfrhrkee12scueknolu.webp"
               alt="RHBaby&Child"
             />
@@ -57,8 +60,9 @@ export default function Works() {
           </figcaption>
         </figure>
         <figure className="aspect-video">
-          <div className="overflow-hidden rounded-md ring-2 ring-gray-200 ring-offset-2">
+          <div className="filter ">
             <img
+              className="border rounded-md"
               src="https://res.cloudinary.com/dqhskqqa6/image/upload/v1641125667/rbm-software-inc/works/bczotm6wwvhnc81vrcei.webp"
               alt="RHBaby&Child"
             />
