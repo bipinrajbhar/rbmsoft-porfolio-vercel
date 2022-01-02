@@ -8,7 +8,7 @@ export const links: LinksFunction = () => [
 
 export default function App() {
   return (
-    <html lang="eng">
+    <html className="[scroll-behavior:smooth]" lang="eng">
       <head>
         <meta charSet="utf-8"></meta>
         <title>RMB SOFTWARE INC</title>

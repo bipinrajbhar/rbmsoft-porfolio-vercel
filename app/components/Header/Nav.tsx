@@ -10,6 +10,10 @@ const headerNavLinks = [
     href: "#services",
   },
   {
+    content: "Works",
+    href: "#works",
+  },
+  {
     content: "Contact",
     href: "#contact",
   },

@@ -8,39 +8,23 @@ export default function Footer() {
       <p>&copy; {fullYear} RBM SOFTWARE INC. All rights reserved.</p>
       <ul className="flex items-center gap-6">
         <li>
-          <a
-            className="hover:text-[#1da1f2] transition"
-            href="#"
-            target="_blank"
-          >
-            <Twitter />
+          <a className="" href="#" target="_blank">
+            <Twitter className="hover:stroke-[rgba(29,161,242,1)] hover:fill-[rgba(29,161,242,.1)] transition" />
           </a>
         </li>
         <li>
-          <a
-            className="hover:text-[#0077b5] transition"
-            href="#"
-            target="_blank"
-          >
-            <Linkedin />
+          <a className="" href="#" target="_blank">
+            <Linkedin className="hover:stroke-[rgba(0,119,181,1)] hover:fill-[rgba(0,119,181,0.1)] transition" />
           </a>
         </li>
         <li>
-          <a
-            className="hover:text-[#1877f2] transition"
-            href="#"
-            target="_blank"
-          >
-            <Facebook />
+          <a className="" href="#" target="_blank">
+            <Facebook className="hover:stroke-[rgba(24,119,242,1)] hover:fill-[rgba(24,119,242,0.1)] transition" />
           </a>
         </li>
         <li>
-          <a
-            className="hover:text-[#e1306c] transition"
-            href="#"
-            target="_blank"
-          >
-            <Instagram />
+          <a className="" href="#" target="_blank">
+            <Instagram className="hover:stroke-[rgba(225,48,108,1)] hover:fill-[rgba(225,48,108,0.1)] transition" />
           </a>
         </li>
       </ul>

@@ -1,7 +1,7 @@
-import RHLogo from "../../public/img/brands/rh.svg";
-import RHBabyAndChildLogo from "../../public/img/brands/rh-baby-and-child.svg";
-import ATTLogo from "../../public/img/brands/att.svg";
-import JennyCraigLogo from "../../public/img/brands/jenny-craig.webp";
+import RHLogo from "../../../public/img/brands/rh.svg";
+import RHBabyAndChildLogo from "../../../public/img/brands/rh-baby-and-child.svg";
+import ATTLogo from "../../../public/img/brands/att.svg";
+import JennyCraigLogo from "../../../public/img/brands/jenny-craig.webp";
 
 export default function LogoClouds() {
   return (
