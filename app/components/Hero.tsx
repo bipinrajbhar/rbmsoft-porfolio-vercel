@@ -1,4 +1,4 @@
-import heroImageUrl from "../../public/images/hero.webp";
+import heroImageUrl from "../../public/img/hero.webp";
 
 export default function Hero() {
   return (

@@ -1,4 +1,4 @@
-import { LiveReload, Outlet, Links } from "@remix-run/react";
+import { LiveReload, Scripts, Outlet, Links } from "@remix-run/react";
 import { LinksFunction } from "remix";
 import tailwindUrl from "./styles/tailwind.css";
 
@@ -19,14 +19,15 @@ export default function App() {
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
           rel="stylesheet"
         />
         <Links />
       </head>
       <body className="px-10 mx-auto text-gray-900 font-roboto max-w-7xl">
-        <Outlet />
         {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
+        <Outlet />
+        <Scripts />
       </body>
     </html>
   );
