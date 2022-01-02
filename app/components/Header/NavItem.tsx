@@ -20,7 +20,7 @@ export default function NavItem(props: NavItemProps) {
     <a
       className={clsx(
         "after:h-0.5 after:bg-gray-600 hover:text-gray-600 after:block after:w-0 hover:after:w-full transition-all after:duration-150 inline-block",
-        isActive ? "after:w-full text-gray-600" : "text-gray-400"
+        isActive ? "after:w-full" : "text-gray-400"
       )}
       href={href}
     >

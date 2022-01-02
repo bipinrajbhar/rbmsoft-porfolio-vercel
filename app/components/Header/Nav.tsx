@@ -15,7 +15,7 @@ const headerNavLinks = [
   },
 ];
 
-export default function NavList() {
+export default function Nav() {
   return (
     <nav>
       <ul className="flex items-center gap-6">

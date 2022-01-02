@@ -1,4 +1,4 @@
-import NavList from "./NavList";
+import Nav from "./Nav";
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
           RBM SOFTWARE INC
         </a>
       </h1>
-      <NavList />
+      <Nav />
     </header>
   );
 }

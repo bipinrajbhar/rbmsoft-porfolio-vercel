@@ -1,3 +1,4 @@
+import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Hero from "~/components/Hero";
 import LogoClouds from "~/components/LogoClouds";
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Header />
       <Hero />
       <LogoClouds />
+      <Footer />
     </>
   );
 }
