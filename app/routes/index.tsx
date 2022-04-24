@@ -3,6 +3,7 @@ import Hero from "~/components/Hero";
 import LogoClouds from "~/components/LogoClouds";
 import Works from "~/components/Works";
 import Footer from "~/components/Footer";
+import Contact from "~/components/Contact";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Hero />
       <LogoClouds />
       <Works />
+      <Contact />
       <Footer />
     </>
   );

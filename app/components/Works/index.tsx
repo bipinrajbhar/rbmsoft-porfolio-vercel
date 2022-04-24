@@ -1,6 +1,6 @@
 export default function Works() {
   return (
-    <section id="works" className="px-10 mx-auto my-10 max-w-7xl">
+    <section id="works" className="px-10 mx-auto my-10 max-w-7xl scroll-m-24">
       <h2 className="mb-6 tracking-wider after:block after:w-full after:h-0.5 after:bg-gray-600 inline-block">
         Works
       </h2>
